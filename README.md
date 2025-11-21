@@ -2,13 +2,14 @@
 
 React + Vite e-commerce app built for the ShoppyGlobe assignment.
 
-## Tech
+## Tech Stack
 
-- React (Vite)
-- React Router (`createBrowserRouter`)
-- Redux Toolkit + React Redux
-- Fetch API + custom hook for products
-- Lazy loading with `React.lazy` + `Suspense`
+- React 18 with Vite for fast development
+- React Router v6 using `createBrowserRouter` for better data handling
+- Redux Toolkit + React Redux for state management
+- Custom `useProducts` hook with Fetch API for data fetching
+- Lazy loading with `React.lazy` + `Suspense` for code splitting
+- Theme context for dark/light mode support
 
 ## Scripts
 
