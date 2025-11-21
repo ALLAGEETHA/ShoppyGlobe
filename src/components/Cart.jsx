@@ -1,3 +1,4 @@
+// Cart component: displays cart items with total price and checkout option
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import CartItem from './CartItem';
