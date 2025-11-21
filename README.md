@@ -19,4 +19,4 @@ npm run build
 npm run preview
 ```
 
-Repo link: (put your GitHub repo URL here before submitting)
+Repo link: https://github.com/ALLAGEETHA/ShoppyGlobe
