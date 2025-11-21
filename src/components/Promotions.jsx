@@ -1,3 +1,4 @@
+// Promotions component: displays promotional offers and ads
 const promotions = [
   {
     id: 1,
