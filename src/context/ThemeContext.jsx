@@ -1,3 +1,4 @@
+// Theme context for managing dark/light mode with localStorage persistence
 import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 
 const ThemeContext = createContext({
