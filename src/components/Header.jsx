@@ -1,3 +1,4 @@
+// Header component: navigation menu, cart indicator, and theme toggle
 import { NavLink } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectCartTotalQuantity } from '../store/cartSlice';
