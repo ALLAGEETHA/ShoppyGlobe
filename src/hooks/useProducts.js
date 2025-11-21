@@ -1,3 +1,4 @@
+// Custom hook for fetching products from API with error handling
 import { useEffect, useState } from 'react';
 
 function useProducts() {
