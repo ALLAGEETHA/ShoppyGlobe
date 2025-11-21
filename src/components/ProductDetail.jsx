@@ -1,3 +1,4 @@
+// ProductDetail component: fetches and displays detailed product information
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
