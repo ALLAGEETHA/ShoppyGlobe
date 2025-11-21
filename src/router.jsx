@@ -10,18 +10,24 @@ const Cart = lazy(() => import('./components/Cart'));
 const Checkout = lazy(() => import('./components/Checkout'));
 const NotFound = lazy(() => import('./components/NotFound'));
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <App />,
+      children: [
+        { index: true, element: <ProductList /> },
+        { path: 'products/:id', element: <ProductDetail /> },
+        { path: 'cart', element: <Cart /> },
+        { path: 'checkout', element: <Checkout /> },
+        { path: '*', element: <NotFound /> },
+      ],
+    },
+  ],
   {
-    path: '/',
-    element: <App />,
-    children: [
-      { index: true, element: <ProductList /> },
-      { path: 'products/:id', element: <ProductDetail /> },
-      { path: 'cart', element: <Cart /> },
-      { path: 'checkout', element: <Checkout /> },
-      { path: '*', element: <NotFound /> }
-    ]
+    basename: import.meta.env.BASE_URL,
   }
-]);
+);
+
 
 export default router;
