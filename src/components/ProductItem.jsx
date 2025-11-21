@@ -1,3 +1,4 @@
+// ProductItem component: displays individual product card with add to cart functionality
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
