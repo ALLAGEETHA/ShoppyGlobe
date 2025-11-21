@@ -1,3 +1,4 @@
+// Loader component: loading spinner for Suspense fallback
 function Loader() {
   return (
     <div className="loader">
