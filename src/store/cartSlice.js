@@ -1,3 +1,4 @@
+// Redux slice for managing cart state and actions
 import { createSlice, createSelector } from '@reduxjs/toolkit';
 
 const initialState = {
