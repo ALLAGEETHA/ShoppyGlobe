@@ -1,3 +1,4 @@
+// Checkout component: form for user details and order summary with cart clearing
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
