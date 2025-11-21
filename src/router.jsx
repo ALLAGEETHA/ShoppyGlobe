@@ -1,7 +1,9 @@
+// Router configuration using createBrowserRouter for better data handling
 import { createBrowserRouter } from 'react-router-dom';
 import React, { lazy } from 'react';
 import App from './App';
 
+// Lazy load components for code splitting and performance optimization
 const ProductList = lazy(() => import('./components/ProductList'));
 const ProductDetail = lazy(() => import('./components/ProductDetail'));
 const Cart = lazy(() => import('./components/Cart'));
