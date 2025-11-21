@@ -1,3 +1,4 @@
+// Redux slice for managing product search and category filter state
 import { createSlice } from '@reduxjs/toolkit';
 
 const productsSlice = createSlice({
