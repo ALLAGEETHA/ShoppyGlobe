@@ -1,3 +1,4 @@
+// NotFound component: 404 error page for unknown routes
 import { Link, useLocation } from 'react-router-dom';
 
 function NotFound() {
