@@ -1,3 +1,4 @@
+// CartItem component: individual cart item with quantity controls and remove option
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import {
