@@ -1,3 +1,4 @@
+// Main entry point - sets up Redux store, theme context, and router
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
